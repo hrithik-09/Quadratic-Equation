@@ -53,8 +53,8 @@ public class MyEquation extends BaseObservable {
         double x1,x2;
         if (d>0)
         {
-            x1=(-b+Math.sqrt(d))/2*a;
-            x2=(-b-Math.sqrt(d))/2*a;
+            x1=(-b+Math.sqrt(d))/(2*a);
+            x2=(-b-Math.sqrt(d))/(2*a);
             binding.txtview.setText("X1= "+x1+" X2= "+x2);
         }
         else if(d==0)
